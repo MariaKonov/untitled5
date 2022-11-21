@@ -1,7 +1,9 @@
 public class BonusMilesService {
-    public int calculate(int prime) {
-        int miles = 20;// рублей для одной бонусной мили
+    public int bonus (int cost) {
 
-        return miles;
+        int miles = 20;
+        int bonusMiles = cost / miles;
+
+        return bonusMiles;
     }
 }
